@@ -10,6 +10,7 @@ int soma(int vetor[], int n) {
 }
 ```
 Qual é a complexidade desse algoritmo?
+É um algoritimo de complexidade O(n) linear, pois esse algoritimo, faz um calculo que sempre será crescente, sempre vai crescendo linearmente.
 
 ## Exercício 2: Multiplicação de Matrizes
 Considere o algoritmo abaixo para multiplicar duas matrizes:
@@ -45,6 +46,7 @@ int busca_binaria(int vetor[], int n, int x) {
 }
 ```
 Qual é a complexidade do algoritmo de busca binária?
+Complexidade O(Log n), a busca binaria sempre vai dividir o numero de elementos de maneira propocional.
 
 ## Exercício 4: Verificação de Número Primo
 Dado o algoritmo abaixo que verifica se um número é primo, determine a complexidade:
@@ -60,6 +62,7 @@ int eh_primo(int n) {
 }
 ```
 Qual é a complexidade do algoritmo para verificar se um número é primo?
+O(raizdeN)
 
 ## Exercício 5: Ordenação por Inserção
 Analise a complexidade do algoritmo de ordenação por inserção abaixo:
@@ -77,6 +80,7 @@ void insertion_sort(int vetor[], int n) {
 }
 ```
 Qual é a complexidade do pior caso para o algoritmo de ordenação por inserção?
+O(n²)
 
 ## Exercício 6: Fibonacci Recursivo
 Considere o seguinte algoritmo recursivo para calcular o n-ésimo número de Fibonacci:
@@ -99,6 +103,7 @@ int soma_recursiva(int n) {
 }
 ```
 Qual é a complexidade do algoritmo para somar recursivamente os números de 1 a N?
+O(n+n)
 
 ## Exercício 8: Quick Sort
 Dado o seguinte algoritmo de Quick Sort, determine sua complexidade no melhor, pior e caso médio:
@@ -127,6 +132,7 @@ int conta_digitos(int n) {
 ```
 Qual é a complexidade desse algoritmo para contar o número de dígitos?
 
+
 ## Exercício 10: Merge Sort
 Considere o seguinte algoritmo de Merge Sort:
 ```c
@@ -140,3 +146,4 @@ void merge_sort(int vetor[], int l, int r) {
 }
 ```
 Qual é a complexidade do algoritmo de Merge Sort?
+O(n log n)
